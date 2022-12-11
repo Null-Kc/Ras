@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-import Instagram from  '../public/assets/instagram.png';
-import Discord from  '../public/assets/discord.png';
-import Youtube from  '../public/assets/youtube.png';
-import Twitch from  '../public/assets/twitch.png';
+import Instagram from  '../assets/instagram.png';
+import Discord from  '../assets/discord.png';
+import Youtube from  '../assets/youtube.png';
+import Twitch from  '../assets/twitch.png';
 
 
 export default function Footer() {
