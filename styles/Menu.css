@@ -112,6 +112,7 @@
 .Menu a{
   text-decoration: none;
 }
+
 @media screen and (max-width: 630px) {
   .Menu {
     width: 100%;

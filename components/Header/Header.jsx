@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Ras from "../assets/ras.png"
+import Ras from "../../assets/ras.png"
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);

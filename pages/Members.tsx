@@ -1,4 +1,4 @@
-import Member from './components/Member';
+import Member from '../components/Member';
 
 import Member1 from  '../assets/lucas.png';
 import Member2 from  '../assets/aurelio.png';

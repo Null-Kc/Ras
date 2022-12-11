@@ -1,7 +1,8 @@
 import Head from "next/head"
+import { BrowserRouter as Router, Route, } from 'react-router-dom';
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer";
 import Members from "./Members";
 import Contato from "./Contato"
 import Link from "next/link";
