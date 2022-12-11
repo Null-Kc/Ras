@@ -1,0 +1,119 @@
+.Header {  
+  position: sticky;   
+  top: 0;                  
+  left: 0; 
+  width: 100% ;
+  height: 100px;
+  display: flex;
+  background-color: #EEEEEE;
+  padding: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hamburger{
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.hamburger span:nth-of-type(1){
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #681371;
+} 
+
+.hamburger span:nth-of-type(2){
+  margin-top: 10px;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #681371;
+} 
+
+.hamburger span:nth-of-type(3){
+  margin-top: 10px;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #681371;
+} 
+
+.hamburger_active{
+  z-index: 99;
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 40px;
+  width: 50px;
+}
+
+.hamburger_active span:nth-of-type(1){
+  display: block;
+  position:absolute;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #ffffff;
+  transition: 0.25s ease-in-out;
+  transform: rotate(45deg);
+} 
+
+.hamburger_active span:nth-of-type(2){
+  width: 0%;
+  transition: 0.25s ease-in-out;
+  transform: rotate(45deg);
+} 
+
+.hamburger_active span:nth-of-type(3){
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #ffffff;
+  transition: 0.25s ease-in-out;
+  transform: rotate(-45deg);
+  position: static;
+} 
+
+.Menu{
+  position: absolute;   
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #97002B;
+  width: 450px;
+  height: 100vh;
+  display: block;
+  padding: 80px 30px 0 30px;
+  justify-content:center;
+}
+
+.Menu_item_box{
+  display: flex;
+  align-items:center;
+  height: 100px;
+}
+
+.Menu h3{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.Menu a{
+  text-decoration: none;
+}
+@media screen and (max-width: 630px) {
+  .Menu {
+    width: 100%;
+  }
+}
