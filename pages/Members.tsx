@@ -1,8 +1,8 @@
 import Member from '../components/Member';
 
-import Member1 from  '../assets/lucas.png';
-import Member2 from  '../assets/aurelio.png';
-import Member3 from  '../assets/alan.png';
+import Member1 from  '../public/assets/lucas.png';
+import Member2 from  '../public/assets/aurelio.png';
+import Member3 from  '../public/assets/alan.png';
 
 export default function Members() {
   return (
