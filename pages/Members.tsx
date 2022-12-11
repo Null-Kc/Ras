@@ -1,7 +1,7 @@
 import Member from '../components/Member';
 
 import Member1 from  '../assets/lucas.png';
-import Member2 from  '../assets/aurelio.png';
+import Member2 from  '../assets/Aurelio.png';
 import Member3 from  '../assets/alan.png';
 
 export default function Members() {
